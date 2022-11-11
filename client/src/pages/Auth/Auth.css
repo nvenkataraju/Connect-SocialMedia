@@ -1,0 +1,81 @@
+.Auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.lef{
+  width: 50%;
+}
+.lef >img{
+  width:100%;
+  height: auto;
+}
+.rig{
+
+}
+
+.Auth > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoForm{
+  background-color: #fff;
+}
+
+/* left side */
+
+.a-left > img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.heading{
+  color: #0055aa;
+}
+
+.Webname > h1 {
+    font-size: 3rem;
+    background-color: red;
+  
+    /* Create the gradient. */
+    background-image: var(--buttonBg);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.Webname>h6{
+    font-size: 0.85rem;
+}
+
+
+
+/* right side */
+
+
+.authForm{
+    background-color: #fff;
+    padding: 1rem;
+}
+.infoInput{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 15px;
+}
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
